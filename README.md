@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>Physical AI Engineer @ orinu.ai | Robotics & AI Developer</strong><br>
-  M.S. Electronics Engineering — Kookmin University | B.S. Computer Engineering — University of Indonesia
+  M.S. Electronics Engineering — Kookmin University | B.S. Computer Engineering — Universitas Indonesia
 </p>
 
 <p align="center">
