@@ -39,7 +39,9 @@ AI Developer and Robotics Engineer with hands-on experience in **LLM fine-tuning
 | Year | Title | Venue |
 |:----:|-------|:-----:|
 | 2025 | Implementation of CSMA/CA-Based MAC Protocol for Optical Camera Communication | **IEEE Access** |
+| 2023 | Intelligent IoT Platform for Multiple PV Plant Monitoring | **Sensors** |
 | 2023 | Design and Implementation of a 2D MIMO OCC System Based on Deep Learning | **Sensors** |
+| 2023 | Development of an Intelligent IoT Platform for PV Power Plant Monitoring and Control | **ICUFN** |
 | 2023 | Forecasting Solar Energy Production using a Hybrid GCN-BiLSTM Model | **ICAIIC** |
 | 2021 | MAKARA MH4 XX — Autonomous Surface Vehicle | **RoboNation** |
 | 2019 | Makara 09 Mark II — Autonomous Surface Vehicle | **RoboNation** |
@@ -55,6 +57,19 @@ AI Developer and Robotics Engineer with hands-on experience in **LLM fine-tuning
 | **3rd Place** | KKCTBN (National Unmanned Fast Boat Contest) | 2019 |
 | **Best Poster** | KKCTBN | 2019 |
 | **3rd Place** — Sensor Optimization | 14th AUVSI International Roboboat | 2021 |
+
+---
+
+### Featured Projects
+
+| Project | Description | Tech |
+|---------|-------------|:----:|
+| [**pv-power-api**](https://github.com/miftahfaridhh/pv-power-api) | PV solar power forecasting API — 6 DL models for 10 solar sites in South Korea | TensorFlow, Flask, BiLSTM |
+| [**smart-home-energy-consumption-forecast**](https://github.com/miftahfaridhh/smart-home-energy-consumption-forecast) | Comparative study: ARIMA vs LSTM for household energy forecasting | TensorFlow, LSTM, GRU |
+| [**edge-ai-object-detection**](https://github.com/miftahfaridhh/edge-ai-object-detection) | Real-time object detection on NVIDIA Jetson with TensorRT | YOLOv8, TensorRT, Docker |
+| [**edge-ai-attendance**](https://github.com/miftahfaridhh/edge-ai-attendance) | Face recognition attendance system on edge devices | InsightFace, TensorRT |
+| [**server-room-monitoring**](https://github.com/miftahfaridhh/server-room-monitoring) | IoT environmental monitoring with Arduino + LoRa + Telegram alerts | Arduino, LoRa, MariaDB |
+| [**edge-ai-alpr**](https://github.com/miftahfaridhh/edge-ai-alpr) | Automatic license plate recognition on Jetson | YOLOv8, EasyOCR, TensorRT |
 
 ---
 
