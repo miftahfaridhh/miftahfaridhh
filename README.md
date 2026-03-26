@@ -62,14 +62,197 @@ AI Developer and Robotics Engineer with hands-on experience in **LLM fine-tuning
 
 ### Featured Projects
 
-| Project | Description | Tech |
-|---------|-------------|:----:|
-| [**pv-power-api**](https://github.com/miftahfaridhh/pv-power-api) | PV solar power forecasting API — 6 DL models for 10 solar sites in South Korea | TensorFlow, Flask, BiLSTM |
-| [**smart-home-energy-consumption-forecast**](https://github.com/miftahfaridhh/smart-home-energy-consumption-forecast) | Comparative study: ARIMA vs LSTM for household energy forecasting | TensorFlow, LSTM, GRU |
-| [**edge-ai-object-detection**](https://github.com/miftahfaridhh/edge-ai-object-detection) | Real-time object detection on NVIDIA Jetson with TensorRT | YOLOv8, TensorRT, Docker |
-| [**edge-ai-attendance**](https://github.com/miftahfaridhh/edge-ai-attendance) | Face recognition attendance system on edge devices | InsightFace, TensorRT |
-| [**server-room-monitoring**](https://github.com/miftahfaridhh/server-room-monitoring) | IoT environmental monitoring with Arduino + LoRa + Telegram alerts | Arduino, LoRa, MariaDB |
-| [**edge-ai-alpr**](https://github.com/miftahfaridhh/edge-ai-alpr) | Automatic license plate recognition on Jetson | YOLOv8, EasyOCR, TensorRT |
+#### [BrailleLLM](https://github.com/miftahfaridhh/BrailleLLM) — LLM-Powered Braille Translation System 🔒 Private (orinu.ai)
+
+LLM fine-tuning for intelligent braille translation — part of Smart Braille Printer project at orinu.ai
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LoRA-A855F7?style=flat"/>
+  <img src="https://img.shields.io/badge/QLoRA-8B5CF6?style=flat"/>
+  <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white"/>
+</p>
+
+<details>
+<summary>Details</summary>
+
+- LLM fine-tuning (T5, Gemma, LLaMA) with LoRA/QLoRA for braille translation
+- RAG pipeline for context-aware braille conversion
+- Integration with Smart Braille Printer hardware system
+- Part of orinu.ai's assistive technology product line
+</details>
+
+---
+
+#### [pv-power-api](https://github.com/miftahfaridhh/pv-power-api) — PV Solar Power Forecasting API
+
+Deep learning-based solar power forecasting API — 6 models serving predictions for 10 PV sites across South Korea 📅 2023
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
+  <img src="https://img.shields.io/badge/BiLSTM-06b6d4?style=flat"/>
+  <img src="https://img.shields.io/badge/GCN-0EA5E9?style=flat"/>
+</p>
+
+<details>
+<summary>Details</summary>
+
+- 6 deep learning models (BiLSTM, GCN-BiLSTM, etc.) for solar irradiance & power output prediction
+- REST API serving real-time forecasts for 10 photovoltaic sites in South Korea
+- Hybrid GCN-BiLSTM architecture capturing spatial-temporal dependencies
+- Published in **Sensors** (2023) and **ICAIIC** (2023)
+- Part of government-funded intelligent IoT platform for PV plant monitoring
+</details>
+
+---
+
+#### Edge AI Suite — Real-Time AI on NVIDIA Jetson & Edge Devices
+
+A collection of 8 production-ready edge AI applications optimized for NVIDIA Jetson platforms 📅 2023 ~ 2024
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/YOLOv8-111111?style=flat"/>
+  <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat&logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jetson-76B900?style=flat&logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat"/>
+  <img src="https://img.shields.io/badge/InsightFace-FF6F00?style=flat"/>
+</p>
+
+<details>
+<summary>Details</summary>
+
+| Project | Description |
+|---------|-------------|
+| [**edge-ai-object-detection**](https://github.com/miftahfaridhh/edge-ai-object-detection) | YOLOv8 object detection optimized for Jetson with TensorRT |
+| [**edge-ai-alpr**](https://github.com/miftahfaridhh/edge-ai-alpr) | Automatic License Plate Recognition — YOLOv8 + EasyOCR on Jetson |
+| [**edge-ai-attendance**](https://github.com/miftahfaridhh/edge-ai-attendance) | Face recognition attendance system — InsightFace + TensorRT |
+| [**edge-ai-ppe**](https://github.com/miftahfaridhh/edge-ai-ppe) | Personal Protective Equipment detection for workplace safety |
+| [**edge-ai-security**](https://github.com/miftahfaridhh/edge-ai-security) | Anomaly detection — motion, intrusion & loitering for surveillance |
+| [**edge-ai-analytics**](https://github.com/miftahfaridhh/edge-ai-analytics) | People counting & traffic analysis for edge devices |
+| [**edge-ai-fitness**](https://github.com/miftahfaridhh/edge-ai-fitness) | Exercise counter using MediaPipe pose estimation |
+| [**edge-ai-gesture**](https://github.com/miftahfaridhh/edge-ai-gesture) | Hand gesture recognition using MediaPipe |
+| [**edge-ai-deployment**](https://github.com/miftahfaridhh/edge-ai-deployment) | Deployment tools, model compression & inference scripts for Jetson |
+| [**edge-ai-commons**](https://github.com/miftahfaridhh/edge-ai-commons) | Shared components and utilities across Edge AI projects |
+
+- TensorRT optimization for real-time inference on resource-constrained devices
+- Docker containerized deployment for reproducible edge environments
+- End-to-end pipelines: data capture → inference → alert/action
+</details>
+
+---
+
+#### [smart-home-energy-consumption-forecast](https://github.com/miftahfaridhh/smart-home-energy-consumption-forecast) — Smart Home Power Forecasting
+
+Comparative study of ARIMA vs deep learning models (LSTM, GRU) for household energy consumption forecasting 📅 2023
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LSTM-06b6d4?style=flat"/>
+  <img src="https://img.shields.io/badge/GRU-0EA5E9?style=flat"/>
+  <img src="https://img.shields.io/badge/ARIMA-14B8A6?style=flat"/>
+</p>
+
+<details>
+<summary>Details</summary>
+
+- Comparative analysis of statistical (ARIMA) vs deep learning (LSTM, GRU) approaches
+- Time series forecasting for smart home energy optimization
+- Feature engineering and data preprocessing pipeline for household consumption data
+</details>
+
+---
+
+#### [server-room-monitoring](https://github.com/miftahfaridhh/server-room-monitoring) — IoT Server Room Monitoring System
+
+Environmental monitoring with Arduino + LoRa long-range communication + real-time Telegram alerts 📅 2022
+
+<p>
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LoRa-3C3C3D?style=flat"/>
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Telegram%20Bot-26A5E4?style=flat&logo=telegram&logoColor=white"/>
+</p>
+
+<details>
+<summary>Details</summary>
+
+- Arduino-based sensor nodes (temperature, humidity, smoke detection)
+- LoRa wireless communication for long-range data transmission
+- MariaDB database for historical data storage and analysis
+- Real-time Telegram bot alerts when thresholds are exceeded
+- Web dashboard for monitoring and visualization
+</details>
+
+---
+
+#### [roarm_ws](https://github.com/miftahfaridhh/roarm_ws) — ROS 2 Robotic Arm Workspace
+
+ESP32-based desktop robotic arm with ROS 2 integration — high-torque serial bus servo control 📅 2024 ~ Present
+
+<p>
+  <img src="https://img.shields.io/badge/ROS%202-22314E?style=flat&logo=ros&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white"/>
+</p>
+
+<details>
+<summary>Details</summary>
+
+- ROS 2 workspace for RoArm desktop robotic arm
+- ESP32-based control with high-torque serial bus servos
+- Part of robotics development work at orinu.ai
+</details>
+
+---
+
+#### [langgraph-chatbot-playground](https://github.com/miftahfaridhh/langgraph-chatbot-playground) — LangGraph Chatbot Experiments
+
+Learning and experimenting with LangGraph for building conversational AI applications 📅 2024
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white"/>
+</p>
+
+<details>
+<summary>Details</summary>
+
+- Chatbot experiments using LangGraph's graph-based conversation flow
+- Exploration of multi-agent architectures and tool-use patterns
+- Basic examples and notes for building conversational AI
+</details>
+
+---
+
+#### [iot](https://github.com/miftahfaridhh/iot) — IoT with MQTT + Apache Kafka
+
+IoT data pipeline with MQTT messaging and Apache Kafka stream processing — Arduino + Raspberry Pi 📅 2021
+
+<p>
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=raspberrypi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white"/>
+</p>
+
+<details>
+<summary>Details</summary>
+
+- Arduino sensor nodes collecting environmental data
+- MQTT broker for lightweight IoT messaging
+- Apache Kafka for scalable stream processing and data pipeline
+- Raspberry Pi as edge gateway
+</details>
 
 ---
 
